@@ -14,4 +14,5 @@ LABEL description="Docker image containing all requirements for Exome analysis"
 COPY environment.yml /
 RUN conda update -y conda && conda env create -f /environment.yml && conda clean -a
 ENV PATH /opt/conda/envs/ExomeAnalysis/bin:$PATH
+CMD conda activate exome-analysis
 ## Required to build the container properly
