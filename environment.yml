@@ -7,7 +7,6 @@ channels:
   - defaults
 
 dependencies:
-  - tabix
   - bcftools=1.9=ha228f0b_4
   - bwa=0.7.17
   - samtools=1.9
