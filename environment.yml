@@ -31,6 +31,7 @@ dependencies:
   - googleapis-common-protos=1.5.8=py_0
   - requests=2.21.0=py36_1000
   - python-kubernetes
+  - vcfanno
   - pip:
     - biopython==1.70
     - bleach==1.5.0
